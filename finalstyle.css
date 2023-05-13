@@ -1,0 +1,215 @@
+* {
+    
+        margin: auto;
+        padding: 0;
+        
+}
+.nav-bar {
+    margin-top: 0px;
+    
+    
+}
+
+
+
+.nav-items a{
+    text-decoration: none;
+    color:#fff;
+}
+body{
+    background-image: url(Lionel\ Messi\ -\ FootyRenders.png);
+    background-color: rgb(1, 0, 70);
+    background-attachment: fixed;
+    height: 0px;
+    margin: 0px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.nav-items{
+    position: fixed;
+    width: 95%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(1, 0, 70);
+    width: 100%;
+   
+}
+.nav-items .logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color: yellow;
+}
+.nav-items ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav-items ul li{
+    margin-right: 30px;
+}
+.nav-items ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.nav-items ul li a:hover, .active{
+    background: blue;
+    color: black;
+}
+.arabe:hover{
+    background: mediumaquamarine;
+    color: black;
+}
+
+.who p {
+    padding: 20px;
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+    border-radius: 20px;
+    visibility: 70%;
+}
+
+.g {
+    display: flex;
+    justify-content: center;
+
+}
+
+.g p{
+    color: red;
+}
+
+.who h1 {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.who {
+    
+   margin: 253px;
+   margin-top: 500px;
+}
+
+
+
+.achieve h2 {
+    color: gold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.achieve p {
+    padding: 20px;
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+    border-radius: 20px;
+    visibility: 70%;
+}
+
+.achieve .achieve-list {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: white;
+    background-image: url(trophy.png);
+    color: black;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.achieve{
+    margin: 253px;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.goat-carousel {
+    overflow: hidden;
+    position: relative;
+     
+}
+
+.carousel-item img {
+    height: 550px;
+    width: 550px;
+    background-color: white;
+    
+}
+
+.close h2 {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 42px;
+}
+
+.close h3{
+    display: flex;
+justify-content: center;
+color: black;
+font-size: 55px;
+}
+
+.close h4 {
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 45px;
+}
+
+.close p {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.close {
+    border: 1px solid white;
+    background-image: url(Football_field_105x68.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    z-index: 100;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+.nav2 ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nav2 ul li{
+    margin-right: 30px;
+}
+.nav2 ul li a{
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.nav2 ul li a:hover, .active{
+    background: blue;
+    color: black;
+}
